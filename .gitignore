@@ -10,3 +10,36 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+### https://raw.github.com/github/gitignore/7792e50daeaa6c07460484704671d1dc9f0045a7/Laravel.gitignore
+
+vendor/
+node_modules/
+npm-debug.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
+
+
+### https://raw.github.com/github/gitignore/7792e50daeaa6c07460484704671d1dc9f0045a7/Global/VisualStudioCode.gitignore
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
